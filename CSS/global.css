@@ -73,4 +73,7 @@ p{
 }
 .footer{
     background-color: #FFF0ED;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 200px 60px 0;
 }

@@ -23,18 +23,20 @@
             </ul>
         </nav>  
         <div class="nitro-coffee">
-            <h1>Nitro Coffee</h1>
-            <p>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species</p>
-            <a class="link--no-underscore" href="pages/menu.html">
+            <div class="nitro-coffee__text-container">
+                <h1>Nitro Coffee</h1>
+                <p class="nitro-coffee__text">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species</p>
+                <a class="link--no-underscore" href="pages/menu.html">
                 <button type="button" class="product__button">SHOP NOW</button>             
-            </a>
+                </a>
+            </div>
             <img src="assets/images/coffeebeans-hero.png" alt="coffee bag">
         </div>
             
     </header>
     
     <main>
-        <section>
+        <section class="product">
             <h2 class="product__title">Our Products</h2>
             <div class="product__row">
                 <div class="product__card">
@@ -53,32 +55,33 @@
                     <p class="product__price">$2.99</p>
                 </div> 
             </div>    
+            <div class="product__button--center">
             <a href="pages/menu.html">
             <button type="button" class="product__button">VIEW ALL</button>
             </a>
-                
+            </div>    
         </section>
             
-        <section>
+        <section class="product__discount--positioning">
             <p class="product__discount">Get 20% off your first order with code: <span class="text--bold">FirstNitro</span></p>
         </section>
     </main>
 
     <footer class="footer">
         <div>
-            <h3>Address</h3>
+            <h3>Address</h3><br>
             <p>503 Broadway Penthouse</p>
             <p>New York</p>
       
         </div>
         <div>
-            <h3>Hours</h3>
+            <h3>Hours</h3><br>
             <p><span class="text--bold">Monday - Friday:</span> 9am - 7pm</p>
             <p><span class="text--bold">Saturday - Sunday:</span> 10am - 5pm</p>
             
         </div>
         <div>
-            <h3>Social</h3>
+            <h3>Social</h3><br>
             <a class="link--no-underscore" href="https://www.facebook.com">
             <img src="assets/logos/Facebook-Icon.svg" alt="facebook" class="icon">
             </a>

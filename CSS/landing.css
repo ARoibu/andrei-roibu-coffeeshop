@@ -1,3 +1,6 @@
+.product{
+    background-color: #f7f7f7;
+}
 .product__button{
     background-color: #5bacc3;
     color: #fff;
@@ -5,8 +8,13 @@
     text-decoration: none;
     min-width: 180px;
     max-width: 80%;
-    padding: 20px 40px;
+    padding: 10px 20px;
     font-size: 1.4rem;
+    margin-bottom: 40px;
+}
+.product__button--center{
+    display: flex;
+    justify-content: center;
 }
 .product__img{
     min-height: 15rem;
@@ -26,6 +34,13 @@
     font-size: 2.8125rem;
     font-weight: 400;
     text-align: center;
+    padding: 40px 100px;
+    margin: 200px 0;
+}
+.product__discount--positioning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .product__card{
     min-width: 330px;
@@ -38,6 +53,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #fff;
 }
 .product__row{
     display: flex;
@@ -45,12 +61,23 @@
     margin: 60px;
 }
 .product__title{
-    margin: 60px 0 0 0;
+    padding: 60px 0 0 0;
+    width: fit-content;
+    margin: 0 auto;
 }
 .text--bold{
     font-weight: 700;
 }
 .nitro-coffee{
-    margin-top: 2rem;
     background-color: #fff0ed;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 150px 40px 100px;
+}
+.nitro-coffee__text-container{
+    width: 380px;
+    margin-top: 100px;
+}
+.nitro-coffee__text{
+    margin: 20px 0 40px 0;
 }
