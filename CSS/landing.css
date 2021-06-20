@@ -23,8 +23,10 @@
 }
 .product__price{
     color: #5bacc3;
-    margin: 20px;
     font-size: 32px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-right: 20px;
 }
 .product__discount{
     min-width: 2.8125rem;
@@ -52,8 +54,24 @@
     box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
+    justify-content: space-between;
     background-color: #fff;
+}
+.product__card-footer{
+    background-color: #fff0ed;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding:30px 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.product__text{
+    margin-left: 20px;
+}
+.product__text--gray{
+    color: #909090;
 }
 .product__row{
     display: flex;
