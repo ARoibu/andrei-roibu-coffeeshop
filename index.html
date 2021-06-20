@@ -12,17 +12,19 @@
 <body>
     <header>
         <nav class="nav"> 
-            <a href="index.html" class="link--no-underscore">
+            <div>
+                <a href="index.html" class="link--no-underscore">
                 <img class="icon" src="assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo">
                 </a>
-            <h2 class="inline"><a class="nav__logo" href="index.html">nitro</a></h2>
-            <ul class="inline">
+                <h2 class="nav--inline"><a class="nav__logo" href="index.html">nitro</a></h2>
+            </div>
+            <ul class="nav__list nav--inline">
                 <li class="nav__item"><a class="nav__link " href="index.html">ABOUT</a></li>
                 <li class="nav__item"><a class="nav__link" href="pages/menu.html">MENU</a></li>
                 <li class="nav__item"><a class="nav__link nav__link--blue" href="pages/menu.html">SHOP NOW</a></li>
             </ul>
         </nav>  
-        <div class="nitro-coffee">
+        <article class="nitro-coffee">
             <div class="nitro-coffee__text-container">
                 <h1>Nitro Coffee</h1>
                 <p class="nitro-coffee__text">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species</p>
@@ -31,15 +33,13 @@
                 </a>
             </div>
             <img src="assets/images/coffeebeans-hero.png" alt="coffee bag">
-        </div>
-            
-    </header>
-    
+        </article>        
+    </header>  
     <main>
         <section class="product">
             <h2 class="product__title">Our Products</h2>
-            <div class="product__row">
-                <div class="product__card">
+            <article class="product__row">
+                <article class="product__card">
                     <img src="assets/images/coffeebeans.png" alt="coffee beans" class="product__img">
                     <div class="product__card-footer">
                         <div class="product__text">
@@ -48,8 +48,8 @@
                         </div>                        
                         <p class="product__price">$19</p>
                     </div>
-                </div>
-                <div class="product__card">
+                </article>
+                <article class="product__card">
                     <img src="assets/images/coldbrew.png" alt="cold brew" class="product__img">
                     <div class="product__card-footer">
                         <div class="product__text">
@@ -58,8 +58,8 @@
                         </div>
                         <p class="product__price">$5</p>
                     </div>
-                </div>
-                <div class="product__card">
+                </article>
+                <article class="product__card">
                     <img src="assets/images/inhousebrew.png" alt="in-house brew" class="product__img">
                     <div class="product__card-footer">
                         <div class="product__text">
@@ -68,15 +68,31 @@
                         </div>
                         <p class="product__price">$3</p>
                     </div>
-                </div> 
-            </div>    
+                </article> 
+            </article>    
             <div class="product__button--center">
             <a href="pages/menu.html">
             <button type="button" class="product__button">VIEW ALL</button>
             </a>
             </div>    
         </section>
-            
+        <section class="humble-brag">
+            <article class="humble-brag__text-area">
+                <h2 class="humble-brag__title">We're Different</h2>
+                <p>We grow and roast our own beans. Every bean, every cup, every step of the way, we strive for excellence.</p>
+                <div class="humble-brag__icons">
+                    <img src="assets/logos/planting.svg" alt="coffee plants icon" class="icon">
+                    <img src="assets/logos/coffee-beans.svg" alt="coffee beans icon" class="icon">
+                    <img src="assets/logos/coffee-cup.svg" alt="coffee cup icon" class="icon">
+                </div>
+                <a href="index.html">
+                <button type="button" class="product__button">LEARN MORE</button>
+                </a>
+            </article>
+            <article class="humble-brag__image">
+                <img src="assets/images/tiltedcan.png" alt="tilted coldbrew can" class="product__img">
+            </article>
+        </section>    
         <section class="product__discount--positioning">
             <p class="product__discount">Get 20% off your first order with code: <span class="text--bold">FirstNitro</span></p>
         </section>

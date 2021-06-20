@@ -11,7 +11,10 @@
     background-color: #393939;
     text-align: center;
     color: #fff;
-    margin:0rem auto
+    margin:0rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hero__img{
     background-image:url(../assets/images/coffee-circle.jpg);
@@ -21,6 +24,8 @@
     max-height: 37.5rem;
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
 }
 .sub-nav{
     min-width: 100%;

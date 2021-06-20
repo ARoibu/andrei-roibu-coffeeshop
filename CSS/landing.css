@@ -8,7 +8,7 @@
     text-decoration: none;
     min-width: 180px;
     max-width: 80%;
-    padding: 10px 20px;
+    padding: 20px 20px;
     font-size: 1.4rem;
     margin-bottom: 40px;
 }
@@ -90,7 +90,7 @@
     background-color: #fff0ed;
     display: flex;
     justify-content: space-between;
-    padding: 40px 150px 40px 100px;
+    padding: 40px 200px 40px 150px;
 }
 .nitro-coffee__text-container{
     width: 380px;
@@ -98,4 +98,30 @@
 }
 .nitro-coffee__text{
     margin: 20px 0 40px 0;
+}
+.humble-brag{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+    margin-bottom: 0;
+}
+.humble-brag__text-area{
+    width: 450px;
+}
+.humble-brag__title{
+    margin-bottom: 40px;
+}
+.humble-brag__icons{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin: 40px 0;
+}
+.humble-brag__image{
+    background-image: url(../assets/images/coldbrewbackground.png);
+    background-size:cover;
+    min-width: 400px;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
 }

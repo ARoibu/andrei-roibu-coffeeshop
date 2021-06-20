@@ -49,6 +49,8 @@ p{
 .nav{
     padding: 1.25rem 0 1.25rem 1.25rem;
     background-color: #fff0ed;
+    display: flex;
+    justify-content: space-between;
 }
 .nav__item{
     padding: 1.25rem 0 1.25rem 1.25rem;
@@ -68,7 +70,11 @@ p{
 .nav__link--blue{
     color: #5BACC3;
 }
-.inline{
+.nav__list{
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.nav--inline{
     display: inline-block;
 }
 .footer{
