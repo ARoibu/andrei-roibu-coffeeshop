@@ -1,16 +1,22 @@
 .product{
     background-color: #f7f7f7;
 }
-.product__button{
-    background-color: #5bacc3;
-    color: #fff;
-    border: none;
-    text-decoration: none;
-    min-width: 180px;
-    max-width: 80%;
-    padding: 20px 20px;
-    font-size: 1.4rem;
-    margin-bottom: 40px;
+.product__button{ 
+      color: #fff;
+      border: 2px solid #393939;
+      padding: 20px;
+      min-width: 11.25rem;
+      max-width: 80%;
+      font-size: 1.2rem;
+      text-decoration: none;
+      position: relative;
+      bottom: 5px;
+      right: 5px; 
+      background-color: transparent;
+}
+.product__button-background{
+    background-color: #5BACC3;
+    display: inline-block;
 }
 .product__button--center{
     display: flex;
@@ -118,10 +124,22 @@
     margin: 40px 0;
 }
 .humble-brag__image{
-    background-image: url(../assets/images/coldbrewbackground.png);
+    /* background-image: url(../assets/images/coldbrewbackground.png); */
     background-size:cover;
     min-width: 400px;
     max-width: 500px;
     display: flex;
     justify-content: center;
+    border: 5px solid #5BACC3;
+    background-color: transparent;
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+    /* position: relative; */
+    /* background-position: right 20px; */
+}
+.humble-brag__background{
+    background-image: url(../assets/images/coldbrewbackground.png);
+    display: inline-block;
+    background-size: cover;
 }

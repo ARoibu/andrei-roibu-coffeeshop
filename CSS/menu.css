@@ -8,13 +8,22 @@
     max-width: 18.75rem;
     min-height: 11.25rem;
     max-height: 12.5rem;
-    background-color: #393939;
+    background-color: transparent;
     text-align: center;
     color: #fff;
     margin:0rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 5px solid #5BACC3;
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+}
+.hero__menu-box--background{
+    background-color: #393939;
+    display: inline-block;
+    margin: auto;
 }
 .hero__img{
     background-image:url(../assets/images/coffee-circle.jpg);

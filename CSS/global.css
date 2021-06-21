@@ -82,4 +82,20 @@ p{
     display: flex;
     justify-content: space-evenly;
     padding: 60px 200px 60px 0;
+    position: relative;
+}
+.footer__bean1{
+    min-width: 60px;
+    max-width: 120px;
+    opacity: 25%;
+    position: absolute;
+    right: -20px;
+    bottom: 40px;
+}
+.footer__bean2{
+    min-width: 60px;
+    max-width: 120px;
+    opacity: 25%;
+    position: absolute;
+    left: -20px;
 }
