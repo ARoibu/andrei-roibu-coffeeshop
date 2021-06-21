@@ -1,0 +1,114 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.hero__menu-box {
+  min-width: 17.5rem;
+  max-width: 18.75rem;
+  min-height: 11.25rem;
+  max-height: 12.5rem;
+  background-color: transparent;
+  text-align: center;
+  color: #fff;
+  margin: 0rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.3125rem solid #5bacc3;
+  position: relative;
+  bottom: 1.25rem;
+  right: 1.25rem;
+}
+
+.hero__menu-box--background {
+  background-color: #393939;
+  display: inline-block;
+  margin: auto;
+}
+
+.hero__img {
+  background-image: url(../assets/images/coffee-circle.jpg);
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 35.9375rem;
+  max-height: 37.5rem;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.sub-nav {
+  min-width: 100%;
+  max-width: 100%;
+  background-color: #393939;
+  text-align: center;
+}
+
+.sub-nav__link--white {
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+  border-left-color: #5bacc3;
+  border-left-width: 0.25rem;
+}
+
+.menu__title {
+  text-align: center;
+  padding: 1.25rem;
+}
+
+.menu-item__description {
+  width: 31.25rem;
+  font-style: italic;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.menu-item__price {
+  text-align: center;
+  color: #5bacc3;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.sub-nav__link {
+  border-width: 0 0 0 0.25rem;
+  border-color: #5bacc3;
+  border-style: solid;
+  margin: 1.25rem 0;
+  padding: 0 1.25rem;
+}
+
+.nav {
+  padding: 1.25rem 0 1.25rem 1.25rem;
+  background-color: #fff0ed;
+}
+
+.nav__item {
+  padding: 1.25rem 0 1.25rem 1.25rem;
+  display: inline-block;
+}
+
+.nav__logo {
+  text-decoration: none;
+  color: #393939;
+  display: inline-block;
+}
+
+.nav__link {
+  text-decoration: none;
+  padding-left: 1.25rem;
+  color: #393939;
+}
+
+.nav__link--blue {
+  color: #5bacc3;
+}
+
+.menu-item__price--padding-bottom {
+  padding-bottom: 2.5rem;
+}/*# sourceMappingURL=menu.css.map */

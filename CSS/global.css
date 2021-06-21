@@ -71,8 +71,8 @@ p{
     color: #5BACC3;
 }
 .nav__list{
-    margin-right: 40px;
-    margin-top: 20px;
+    margin-right: 2.5rem;
+    margin-top: 1.25rem;
 }
 .nav--inline{
     display: inline-block;
@@ -81,21 +81,21 @@ p{
     background-color: #FFF0ED;
     display: flex;
     justify-content: space-evenly;
-    padding: 60px 200px 60px 0;
+    padding: 3.75rem 12.5rem 3.75rem 0;
     position: relative;
 }
 .footer__bean1{
-    min-width: 60px;
-    max-width: 120px;
+    min-width: 3.75rem;
+    max-width: 7.5rem;
     opacity: 25%;
     position: absolute;
-    right: -20px;
-    bottom: 40px;
+    right: -1.25rem;
+    bottom: 2.5rem;
 }
 .footer__bean2{
-    min-width: 60px;
-    max-width: 120px;
+    min-width: 3.75rem;
+    max-width: 7.5rem;
     opacity: 25%;
     position: absolute;
-    left: -20px;
+    left: -1.25rem;
 }
